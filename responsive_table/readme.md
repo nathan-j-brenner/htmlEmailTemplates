@@ -24,3 +24,6 @@ The `table.bigShow ` will display by default until the screen width is less than
 However Outlook, Internet Explorer, and Gmail don't support media queries.  Well, Outlook isn't an issue here because the desktop client will look fine and the Outlook app on smart phones is supported with webkit so media queries work fine.
 
 But Gmail wipes out any style tags.  All css has to be inline.  So, the styles that get overrode when the screen width gets below 520px need to be applied to the `table.bigShow`, and then the table that will show for the smaller screens needs to be wrapped around a `div.bigHide`.  This will keep the smaller table from showing up on the desktop screens.
+
+![responsive table for desktop](responsive_table_desktop.png)
+![responsive table for mobile](responsive_table_mobile.png)
